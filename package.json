@@ -1,6 +1,6 @@
 {
   "name": "whoami-microservice",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Retrieves ip, language, and software of users",
   "main": "index.js",
   "scripts": {
