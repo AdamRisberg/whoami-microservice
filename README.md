@@ -1,0 +1,1 @@
+whoami-microservice retrieves ip, language, and software of users.
