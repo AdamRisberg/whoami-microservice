@@ -5,8 +5,11 @@ module.exports = function(req) {
   var language = req.headers["accept-language"];
   language = language.slice(0, language.indexOf(","));
 
+  var ip = req.connection.remoteAddress;
+  ip = ip.slice(ip.lastIndexOf(":") + 1);
+
   return {
-    ipaddress: req.connection.remoteAddress,
+    ipaddress: ip,
     language: language,
     software: software
   };
