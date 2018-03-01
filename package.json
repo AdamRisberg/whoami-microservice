@@ -4,7 +4,7 @@
   "description": "Retrieves ip, language, and software of users",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/myniztan/whoami-microservice/issues"
   },
-  "homepage": "https://github.com/myniztan/whoami-microservice#readme"
+  "homepage": "https://github.com/myniztan/whoami-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "9.2.1"
+  }
 }
